@@ -5,3 +5,4 @@ describe('9-hashtags', () => {
     expect(hashtags('Hello #world this is a #string with #hashtags')).toEqual(['#world', '#string', '#hashtags'])
   })
 })
+
